@@ -1,0 +1,8 @@
+CAO:
+  Read:
+    Lesson 1
+  Do tasks:
+    Lesson 1
+
+Rokas:
+  explain tag and attributes list as shown during the lecture (what is their full name (if needed) and it's used for)
