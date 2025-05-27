@@ -1,0 +1,7 @@
+CAO:
+  Lecture 2 - Introduction to CSS - read and do task
+  Lecture 3 - More about HTML and CSS and browser tools - read
+
+Rokas:
+  Read what we have written down.
+  Try some CSS yourself (selectors and styles with different values).

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>56 Lecture - CSS Basics</title>
+  <style>
+    li{
+      color: blue;
+      font-size: 18px; /* default for font size is 16px */
+    }
+  </style>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <header></header>
+  <main>
+    <section>
+      <h1>CSS Basics</h1>
+      <p style="color:red">
+        CSS - Cascading Style Sheets used to style HTML elements.
+      </p>
+      <h3>Ways to write CSS</h3>
+      <ul>
+        <li>Inline - CSS is written inside of a tag using style attribute.</li>
+        <li>Internal - CSS is written inside of HTML file, inside of style tag.</li>
+        <li>External - CSS is written in CSS file that is being linked to HTML file.</li>
+      </ul>
+    </section>
+    <section>
+      <h2 class="fancy">CSS Selectors</h2>
+      <p>
+        CSS selectors dictate which styles are given to which elements.
+      </p>
+      <ul>
+        <li>tag - p/h1/span/div... - you select all tags in HTML you wrote as selector.</li>
+        <li>* - everything - selects every element.</li>
+        <li class="fancy smallText">.className - selects elements that have specific class.</li>
+        <li id="randomName">#idName - selects elements that have specific id.</li>
+        <li>...</li>
+      </ul>
+    </section>
+    <section>
+      <h2><a href="https://htmlcolorcodes.com/">Colors</a></h2>
+      <ul>
+        <li>named colors (only ~140)</li>
+        <li>hex - hexadecimal</li>
+        <li>rgb - red green blue</li>
+        <li>rgba - red green blue alpha (alpha stands for opacity 0-1)</li>
+        <li>hsl - hue saturation lightness</li>
+      </ul>
+    </section>
+    <section>
+      <div class="bg1"></div>
+      <div class="bg2"></div>
+      <div class="bg3"></div>
+    </section>
+    <section>
+      <h2>Displays</h2>
+      <ul>
+        <li>Inline - elements can be placed in the same row and only takes the space needed to display the element. Can't set height or width styles.</li>
+        <li>Block - elements will be placed one under the other and will take the entire row. Can set height and width styles.</li>
+        <li>Inline-Block - elements can be placed in the same row and take the space needed to display the element. Can set height and width styles.</li>
+        <li>Flex</li>
+        <li>Grid</li>
+      </ul>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>

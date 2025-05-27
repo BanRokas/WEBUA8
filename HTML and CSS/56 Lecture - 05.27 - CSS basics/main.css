@@ -1,0 +1,55 @@
+body{
+  background-color: #9ca09e;
+}
+
+p{
+  font-style: italic;
+}
+
+/* *{
+  border: 3px solid black;
+} */
+
+.fancy{
+  /* text-decoration-style: wavy;
+  text-decoration-color: purple;
+  text-decoration-thickness: 1px;
+  text-decoration-line: underline; */
+  text-decoration: wavy 1px purple underline;
+  font-style: italic;
+  letter-spacing: 3px;
+}
+.smallText{
+  font-size: 10px;
+}
+#randomName{
+  background-color: rgb(22, 210, 28);
+}
+#anotherOne{
+  color: #ff0000;
+}
+
+.bg1{
+  height: 500px;
+  /* background-color: #85baa0; */
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(212, 120, 120) 30%,
+    rgb(130, 130, 190) 30% 50%,
+    rgb(182, 162, 126) 50% 100%
+  );
+}
+.bg2{
+  height: 500px;
+  background-image: url('./images/nature8.jpg');
+  background-attachment: fixed;
+}
+.bg3{
+  height: 500px;
+  background-image: url('./images/nature3.jpg');
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* background-position-x: center;
+  background-position-y: top; */
+  background-position: center top;
+}
