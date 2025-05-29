@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>57 Lecture - CSS nuances</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section> <!-- table -->
+        <h1>Table1</h1>
+        <h2>Table2</h2>
+        <ul>
+          <li>table</li>
+          <li>thead</li>
+          <li>tbody</li>
+          <li>tfoot (rarely used)</li>
+          <li>tr - table row</li>
+          <li>th - table heading</li>
+          <li>td - table data</li>
+        </ul>
+        <table class="firstTable">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Is tired</th>
+              <th>Height</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Rokas</td>
+              <td rowspan="5">True</td>
+              <td colspan="2"><i>28</i></td>
+              <!-- <td>28</td> -->
+            </tr>
+            <tr>
+              <td>Petras</td>
+              <!-- <td>True</td> -->
+              <td>150</td>
+              <td>60</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section> <!-- more selectors -->
+        <h2>More CSS Selectors</h2>
+        <ul>
+          <li>combination
+            <ul>
+              <li>tagName.className</li>
+              <li>tagName#idName</li>
+              <li>.className1.className2</li>
+              <li>.className#idName</li>
+              <li>tagName.className#idName</li>
+              <li>...</li>
+            </ul>
+          </li>
+          <li>selector1 selector2</li>
+          <li>selector1 > selector2</li>
+          <li>selector1 + selector2</li>
+          <li>selector1 ~ selector2</li>
+          <li>...</li>
+        </ul>
+      </section>
+      <section> <!-- CSS priorities -->
+        <h3>Browser default styles</h3>
+        <p>
+          Most tags have their own styles given by the browser. Different browsers sometimes have different styles.
+        </p>
+        <p>
+          <a href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">Normalize CSS</a> - normalizes styles in betweem different browsers.
+        </p>
+        <p>
+          <a href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">Reset CSS</a> - removes the default styles.
+        </p>
+        <h3>Parent and children elements</h3>
+        <p>Element CAN have many children elements.</p>
+        <p>Element HAVE only one parent element.</p>
+        <h4>Inheritance</h4>
+        <p>Styles can be inherited by children elements from their parent elements.</p>
+        <h2>CSS styles priorities</h2>
+        <ol>
+          <li>!important</li>
+          <li>Inline</li>
+          <li>Selector Specificity
+            <ol>
+              <li>100 - id</li>
+              <li>010 - class</li>
+              <li>001 - tag</li>
+            </ol>
+          </li>
+          <li>Order (only if specificity is the same)</li>
+          <li>User agent stylesheet / browser styles</li>
+          <li>Inheritance</li>
+        </ol>
+      </section>
+      <section> <!-- Box model -->
+        <h2>Box model</h2>
+        <ol>
+          <li>Content - center part of an element</li>
+          <li>Padding - in between Content and Border</li>
+          <li>Border - in between Padding and Margin</li>
+          <li>Margin - in between our elements and the elements around it</li>
+          <li>Positions - talk about it next lecture</li>
+        </ol>
+        <div class="boxModel">Box model testing</div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

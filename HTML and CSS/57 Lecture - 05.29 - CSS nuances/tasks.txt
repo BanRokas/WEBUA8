@@ -1,0 +1,8 @@
+CAO:
+  Lecture 4 - read and do task
+  Lecture 5 - read (can skip on length units) and do task (if got enough time)
+
+Rokas:
+  If have time / want to:
+    Try to create a table with at least 5 rows about popular tourist locations/attractions.
+    Reach row have same columns: numeration, name, location, been/not, link, photo.
