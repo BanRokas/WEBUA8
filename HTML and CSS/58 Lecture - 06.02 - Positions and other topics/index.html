@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>58 Lecture - Positions and other topics</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <header></header>
+  <main>
+    <section> <!-- Positions -->
+      <h2>Positions</h2>
+      <ul>
+        <li>static (default) - does nothing</li>
+        <li>relative</li>
+        <li>absolute</li>
+        <li>fixed</li>
+        <li>sticky</li>
+        <li>top, right, bottom, left, z-index (not positions)</li>
+      </ul>
+      <p>
+        The element with position: relative | absolute | fixed | sticky, gains access to top, right, bottom, left and z-index styles.
+      </p>
+      <p>
+        z-index controls elements layers. Can only be used on elements with positions of relative | absolute | fixed | sticky AND displays of flex | grid.
+      </p>
+      <div>
+        <h3>Relative</h3>
+        <p>
+          Top, right, bottom and left styles move element away from it's original position by the given amount of pixels. 
+        </p>
+        <p>
+          Element with position: relative, sets the boundaries for it's children element with position: absolute.
+        </p>
+      </div>
+      <div>
+        <h3>Absolute</h3>
+        <p>
+          Element loses it's place on the document flow. Top, right, bottom and left styles move element away from it's closest ancestor element with relative position.
+        </p>
+      </div>
+      <div>
+        <h3>Fixed</h3>
+        <p>
+          Element loses it's place on the document flow. Top, right, bottom and left styles move element away from current viewport. Fixates element on specific position on the screen and it does not scroll up or down, but always stays in that place while we scroll the page.
+        </p>
+      </div>
+      <div>
+        <h3>Sticky</h3>
+        <p>
+          Element works similarly to fixed, but does not lose it's place on the document flow. Top, right, bottom, left sticks element to the parent element borders once it reaches the sticky element.
+        </p>
+      </div>
+    </section>
+    <section> <!-- Multimedia elements -->
+      <h2>Multimedia elements</h2>
+      <p>
+        There are quite a few different multimedia elements like
+      </p>
+      <ul>
+        <li>img - for images and gifs</li>
+        <li>video - for video elements (mp4 and so on)</li>
+        <li>audio - for audio elements (mp3 and so on)</li>
+        <li>iframe - used to embed content from other websites to your own</li>
+      </ul>
+      <div>
+        <h3>Embed content</h3>
+        <h4>Maps</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1197.217627742461!2d23.914822934356497!3d54.890356697552946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e72271d0b1c3e1%3A0xff421580fc4b8b14!2s%C5%BDalgirio%20arena!5e1!3m2!1sen!2slt!4v1748881420151!5m2!1sen!2slt" width="400" height="300" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h4>Youtube videos</h4>
+        <iframe width="1905" height="784" src="https://www.youtube.com/embed/Zj3a5-0QYas" title="𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 90s Japanese Lofi Hiphop 📼 Nostalgic Chill Vibes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section> <!-- Fonts -->
+      <h2><a href="https://fonts.google.com/" target="_blank">Google Fonts</a></h2>
+      <p>
+        If you want to use different font for your website, you can link it to your project and use it. 
+      </p>
+      <p>
+        Select fonts you want, add them to your collection by clicking "Get Font", copy link or import code into your project.
+      </p>
+    </section>
+    <section> <!-- Icons -->
+      <h2>Icons</h2>
+      <p>
+        You can add icons to your webpage from different icon libraries.
+        First step - select library you want: bootstrap, google icons, font-awesome, mui, tailwind, ant-d...
+        Second step - import or link CDN.
+        Third step - use icon.
+        While styling icons think of them as simple letters. Change their font-size, not width and height and so on.
+      </p>
+      <i class="bi bi-backpack4-fill icon1"></i>
+      <i class="bi bi-box-arrow-down"></i>
+    </section>
+    <section id="textAndBg"> <!-- text on photo background -->
+      <div class="transparentBg"></div>
+      <div class="content">
+        <h2>Background image with text</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, laboriosam! Facere possimus vero eveniet eligendi corporis exercitationem fuga animi, a atque molestiae voluptatem eos minima unde reiciendis tempore inventore maiores labore ab nulla neque velit nam! Similique ipsam est odit dolorem commodi, placeat corrupti qui alias fuga accusamus adipisci quod esse earum quos, labore praesentium reiciendis totam iusto. Soluta, voluptatum doloremque sed, eveniet error corrupti recusandae sit quis facilis nisi eos nostrum tempore ut voluptatem ea harum ipsa similique veniam doloribus! Enim dignissimos itaque provident inventore dolore hic eaque eligendi reiciendis dolores, id iste corrupti similique perspiciatis possimus suscipit veritatis.
+        </p>
+      </div>
+    </section>
+    <section> <!-- attribute selectors -->
+      <h2>Attribute Selectors</h2>
+      <ul>
+        <li title="baby">[attribute] - attribute name</li>
+        <li title="abc">[attribute='value'] - attribute name and it's value</li>
+        <li title="a ab">[attribute*='value'] - attrbite name and it's partial value</li>
+        <li title="a and b">[attribute~='value'] - attribute name and it's one of the values</li>
+        <li>[attribute|='value'] - attribute name and it's value or it's value'-'</li>
+        <li>[attribute^='value'] - attribute name and it's value start</li>
+        <li>[attribute$='value'] - attribute name and it's value end</li>
+      </ul>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>

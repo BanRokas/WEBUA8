@@ -1,0 +1,6 @@
+CAO:
+  Lecture 6 Multimedia elements - read, no need to do the task
+
+Rokas:
+  Nothing for today. Just read what we wrote.
+  Maybe try to add a different font from googleFonts and few more icons.
