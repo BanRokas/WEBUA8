@@ -1,0 +1,48 @@
+/* table.firstTable,
+table.firstTable th,
+table.firstTable td{
+  border: 1px solid black;
+}
+table.firstTable{
+  border-collapse: collapse;
+}
+table.firstTable th,
+table.firstTable td{
+  padding: 2px 5px;
+}
+table.firstTable th:hover,
+table.firstTable td:hover{
+  background-color: aqua;
+}
+table.firstTable > caption{
+  caption-side: bottom;
+} */
+
+table.firstTable{
+  border: 1px solid black;
+  border-collapse: collapse;
+
+  th, td{
+    border: 1px solid black;
+    padding: 2px 5px;
+
+    &:hover{
+      background-color: aqua;
+    }
+  }
+  > caption{
+    caption-side: bottom;
+  }
+}
+
+/* ul.pseudoClassList > li:nth-child(even){
+  background-color: blueviolet;
+} */
+
+li:nth-child(2n)::before{
+  content: ':)';
+  padding-right: 10px;
+  color: red;
+  font-size: 50px;
+  font-style: italic;
+}

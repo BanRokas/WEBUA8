@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>59 Lecture - Tables and Pseudo Class and Elements</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <header></header>
+  <main>
+    <section> <!-- table -->
+      <h2>Table</h2>
+      <p>
+        Used to display data as a table with headings in thead and data in tbody. <br>
+        In HTML tables are created by creating rows. Columns in those rows are created by filling the rows with data or headings.
+      </p>
+      <table class="firstTable">
+        <caption>Name of table</caption>
+        <thead>
+          <tr>
+            <th>First column name</th>
+            <th>Second column name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>first row first column name</td>
+            <td>first row second column name</td>
+          </tr>
+          <tr>
+            <td>second row first column name</td>
+            <td>second row second column name</td>
+          </tr>
+        </tbody>
+      </table>
+      <table></table>
+    </section>
+    <section> <!-- CSS nesting -->
+      <h2>CSS nesting</h2>
+      <p>
+        We can nest our CSS code, by writing one selector inside of the other selector. This way we write less selectors saving code space and time.
+      </p>
+    </section>
+    <section> <!-- pseudo class (selectors) -->
+      <h2>Pseudo Class selectors</h2>
+      <p>
+        Some pseudo classes reacts to the state of the element. Others to the position of the element and so on.
+      </p>
+      <ul class="pseudoClassList">
+        <li>Links
+          <ol>
+            <li>:link - unvisited new link</li>
+            <li>:visited - visited link</li>
+            <li>:hover - mouse over the element (not just links)</li>
+            <li>:active - reacts to the click (moment of clicking)</li>
+          </ol>
+        </li>
+        <li>:first-child</li>
+        <li>:last-child</li>
+        <li>:only-child</li>
+        <li>:first-of-type</li>
+        <li>:last-of-type</li>
+        <li>:only-of-type</li>
+        <li>:nth-child(n)</li>
+        <li>:nth-last-child(n)</li>
+        <li>:nth-of-type(n)</li>
+        <li>:nth-last-of-type(n)</li>
+        <li>No need to know
+          <ul>
+            <li>:root</li>
+            <li>:not(selector)</li>
+            <li>:empty</li>
+            <li>:fullscreen</li>
+            <li>:lang(language)</li>
+            <li>:target</li>
+          </ul>
+        </li>
+        <li>...</li>
+      </ul>
+    </section>
+    <section> <!-- pseudo element (selectors) -->
+      <h2>Pseudo element selectors</h2>
+      <p>
+        It either selects some unvonventional parts of HTML or it adds additional content to your elements.
+      </p>
+      <ul>
+        <li>::before - creates content before selected element</li>
+        <li>::after - creates content after selected element</li>
+        <li>...</li>
+      </ul>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>
