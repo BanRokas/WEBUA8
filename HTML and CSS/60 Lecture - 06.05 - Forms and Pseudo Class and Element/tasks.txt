@@ -1,0 +1,11 @@
+CAO:
+  Lecture 9 - HTML Forms
+    Read
+    Try to do task
+  Lecture 10 - CSS user-action pseudo-classes
+    Nothing to read, nothing to watch (watched last lecture)
+    Try to do task
+
+Rokas:
+  Read what we wrote
+  Try out various inputs

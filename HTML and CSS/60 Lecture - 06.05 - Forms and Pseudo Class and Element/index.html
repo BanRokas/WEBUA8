@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>60 Lecture - Forms and Pseudo Class and Elements</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <header></header>
+  <main>
+    <section> <!-- Form -->
+      <h2>Forms</h2>
+      <p>
+        Forms are used for user to enter some kind of information into inputs and after submitting the forms - program does something.
+      </p>
+      <div>
+        <div>
+          <h3>Form Tags</h3>
+          <ul>
+            <li>form</li>
+            <li>label</li>
+            <li>input - can vary ALOT</li>
+            <li>textarea</li>
+            <li>select</li>
+            <li>option</li>
+            <li>datalist</li>
+            <li>optgroup</li>
+            <li>output</li>
+            <li>fieldset</li>
+            <li>legend</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Form Tags Attributes</h3>
+          <ul>
+            <li>type
+              <ul>
+                <li>text</li>
+                <li>number</li>
+                <li>password</li>
+                <li>email</li>
+                <li>url</li>
+                <li>file</li>
+                <li>range</li>
+                <li>datetime-local</li>
+                <li>color</li>
+                <li>radio</li>
+                <li>checkbox</li>
+                <li>...</li>
+              </ul>
+            </li>
+            <li>for - connects label to input</li>
+            <li>id - connects input to label</li>
+            <li>name - any name we think of to group multiple inputs or to help JS</li>
+            <li>value - initial value for input or for JS later</li>
+            <li>required</li>
+            <li>placeholder</li>
+            <li>minlength / maxlength</li>
+            <li>min / max</li>
+            <li>step</li>
+            <li>selected</li>
+            <li>checked</li>
+            <li>disabled</li>
+            <li>readonly</li>
+            <li>...</li>
+          </ul>
+        </div>
+      </div>
+      <form class="testForm">
+        <div>
+          <!-- <label for="usernameOrSomething">Username</label> -->
+          <input
+            type="text"
+            name="usernameOrSomething" id="usernameOrSomething"
+            placeholder="Username..."
+            maxlength="20"
+            minlength="5"
+          >
+        </div>
+        <div>
+          <label for="ageInput">Age</label>
+          <input
+            type="number"
+            name="ageInput" id="ageInput"
+            placeholder="Enter your age..."
+            min="15"
+            max="99"
+            step="4"
+          >
+        </div>
+        <div>
+          <label for="citySelect">City</label>
+          <select name="citySelect" id="citySelect">
+            <option value="" disabled selected></option>
+            <option value="Kaunas">Kaunas</option>
+            <option value="Vilnius">Vilnius</option>
+            <option value="Klaipėda">Klaipėda</option>
+          </select>
+        </div>
+        <div>
+          <label for=""></label>
+          <textarea name="" id="" cols="" rows=""></textarea>
+        </div>
+        <div>
+          <label for="avatar">Select your profile picture</label>
+          <input type="file" name="avatar" id="avatar">
+        </div>
+        <div>
+          <label for="dob">Select your birth date</label>
+          <input type="datetime-local" name="dob" id="dob">
+        </div>
+        <div>
+          <label for="favColor">Your fav color</label>
+          <input type="color" name="favColor" id="favColor">
+        </div>
+        <fieldset>
+          <legend>Gender</legend>
+          <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male" required>
+          </div>
+          <div>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+          </div>
+        </fieldset>
+        <fieldset class="tshirt">
+          <legend>Tshirt size</legend>
+          <div>
+            <input type="checkbox" name="tshirtsize" id="small" value="small">
+            <label for="small">small</label>
+          </div>
+          <div>
+            <input type="checkbox" name="tshirtsize" id="medium" value="medium">
+            <label for="medium">medium</label>
+          </div>
+          <div>
+            <input type="checkbox" name="tshirtsize" id="large" value="large">
+            <label for="large">large</label>
+          </div>
+        </fieldset>
+
+        <input type="submit" value="Submit Form Button">
+      </form>
+    </section>
+    <section> <!-- Pseudo Classes (relates to forms) -->
+      <h2>Pseudo Classes</h2>
+      <ul>
+        <li>:checked</li>
+        <li>:default</li>
+        <li>:disabled</li>
+        <li>:focus</li>
+        <li>:focus</li>
+        <li>:in-range</li>
+        <li>:out-of-range</li>
+        <li>:valid</li>
+        <li>:invalid</li>
+        <li>:optional</li>
+        <li>:required</li>
+        <li>...</li>
+      </ul>
+    </section>
+    <section> <!-- Pseudo Elements -->
+      <h2>Pseudo Elements</h2>
+      <ul>
+        <li>::before</li>
+        <li>::after</li>
+        <li>::placeholder</li>
+        <li>::marker</li>
+        <li>::selection</li>
+        <li>::first-line</li>
+        <li>::first-letter</li>
+        <li>::-webkit-scrollbar</li>
+        <li>::-webkit-scrollbar-track</li>
+        <li>::-webkit-scrollbar-thumb</li>
+        <li>...</li>
+      </ul>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>
