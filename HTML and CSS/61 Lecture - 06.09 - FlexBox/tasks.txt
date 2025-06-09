@@ -1,0 +1,21 @@
+CAO:
+  11 Lecture - read
+  12 Lecture - try to do the task (not that much of Flex, but good task overall)
+
+Rokas:
+  Read once more what we wrote and try playing with different styles on our Flex Example.
+
+  Play online games for flex (at least Flex Froggy):
+    https://flexboxfroggy.com/ (24 is hard)
+    https://codingfantasy.com/games/flexboxadventure/play
+    http://www.flexboxdefense.com/
+
+  Other topic:
+    Play CSS selectors game:
+      https://flukeout.github.io/
+
+  Watch Kevin Powell video on FlexBox:
+    https://www.youtube.com/watch?v=u044iM9xsWU
+
+  Try to recreate the page displayed on "./images/FlexPage1.PNG"
+    Will need to use "children property flex" or "create nested flex container" to recreate the cards.

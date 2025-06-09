@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>61 Lecture - FlexBox</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <header> <!-- header using flex -->
+    <a href="#flex">What is flexbox?</a>
+    <a href="#flexProperties">Flex properties</a>
+    <a href="#flexExample">Flex example</a>
+    <a href="#flexCard">Card using flex</a>
+  </header>
+  <main>
+    <section> <!-- Flex -->
+      <h2 id="flex">Flex</h2>
+      <p>
+        We use display of Flex then we need to display elements on the screen with a bit more control over them as a group. Even though we do have great control over the group of those elements, we don't have great control over every single separate element (grid is better for that).<br>
+        Flex has quite a few properties, they are separated in two groups: parent (flex container) and children (flex items).
+      </p>
+      <h3 id="flexProperties">Flex properties</h3>
+      <div class="propertiesContainer">
+        <div>
+          <h4>Parent</h4>
+          <ul>
+            <li>display: flex;</li>
+            <li>flex-direction: row (default) | column | row-revese | column-reverse;</li>
+            <li>flex-wrap: no-wrap (default) | wrap | wrap-reverse;</li>
+            <li>flex-flow: flex-direction flex-wrap;</li>
+            <li>justify-content - how elements are positioned on the main axis</li>
+            <li>align-items - how elements are positioned on the cross axis (for each separate row)</li>
+            <li>align-content - how elements are positioned on the cross axis (for all the items (overrides align-items style))</li>
+            <li>gap: row-gap column-gap;</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Children</h4>
+          <ul>
+            <li>order - change order of elements</li>
+            <li>flex-grow</li>
+            <li>flex-shrink</li>
+            <li>flex-basis</li>
+            <li>flex: flex-grow flex-shrink flex-basis</li>
+            <li>align-self</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section> <!-- Flex example -->
+      <h2 id="flexExample">Flex example</h2>
+      <div class="flexContainer">
+        <!-- div{$}*12 -->
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+      </div>
+    </section>
+    <section id="flexCard"> <!-- something with flex -->
+      <h2>Flex Card</h2>
+      <div class="cardsContainer">
+        <div class="card">
+          <h3>Title</h3>
+          <img src="https://i5.walmartimages.com/seo/Johnny-Bravo-Pose-Wall-Poster-22-375-x-34-Framed_b6bfc438-58f2-4387-9291-a303cfac7518.121243abedcf141fd66c87d28a79967e.jpeg" alt="Jhonny Bravo">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti neque consequuntur nemo asperiores repellendus, quas aperiam velit animi hic quo cumque doloribus temporibus officia tempora suscipit eligendi dicta quod consectetur similique nam qui rerum earum totam?
+          </p>
+        </div>
+        <div class="card">
+          <h3>Title</h3>
+          <img src="https://static.wikia.nocookie.net/thecncartoonnetwork/images/e/ea/Ed-edd-n-eddy.jpg" alt="Ed edd and eddy">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti neque consequuntur nemo asperiores repellendus, quas aperiam velit animi hic quo cumque doloribus temporibus officia tempora suscipit eligendi dicta quod consectetur similique nam qui rerum earum totam? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>
