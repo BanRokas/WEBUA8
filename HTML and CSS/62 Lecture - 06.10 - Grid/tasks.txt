@@ -1,0 +1,17 @@
+CAO:
+  Lecture 13 - CSS Grid - read topics and article linked in first topic
+
+Rokas:
+  Games:
+    https://cssgridgarden.com/
+    https://codingfantasy.com/games/css-grid-attack/play
+  Videos:
+    https://www.youtube.com/watch?v=rg7Fvvl3taU - Grid
+    https://www.youtube.com/watch?v=3elGSZSWTbM - Grid vs Flex
+  Tasks:
+    try to recreate:
+      easy:
+        grid1.PNG, grid2.png, grid3.png
+      hard:
+        gridOverlap.png (can check gridOverlapLines.png to see suggested grid structure)
+        periodicTable.PNG (not that hard, just hella long)
