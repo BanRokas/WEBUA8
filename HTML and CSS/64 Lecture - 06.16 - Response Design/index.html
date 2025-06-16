@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>64 Lecture - Responsive Design</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <header></header>
+  <main>
+    <section> <!-- Responsive Design breakpoints -->
+      <h2>Responsive Design</h2>
+      <p>
+        It is used to create different layouts depending on user's screen size.
+      </p>
+      <h3>
+        <a href="https://getbootstrap.com/docs/5.3/layout/breakpoints/#media-queries" target="_blank">Breakpoints</a>
+      </h3>
+      <p>
+        The breakpoints - the specific amounts of pixels your screen changes the layouts of elements once screen reaches specific size.<br>
+        There are no golden standards for breakpoints. You should choose the breakpoints that looks nice for your personal website application. But if u do need some guidlines - choose either bootstrap or tailwind suggested breakpoints.
+      </p>
+    </section>
+    <section> <!-- Mobile First -->
+      <h2>Mobile first</h2>
+      <p>
+        Mobile first design principle - is that we're styling our website for mobile applications first and once we're done with that we move on to the bigger screen device styles and so on and so on...
+      </p>
+      <p>
+        That is done because majority of website users are using mobile devices so we're focusing on majority of users. It is easier to add more content once screen expands rather than remove some content then screen shrinks...
+      </p>
+      <p>
+        Using Mobile-First design principal we need to write css using media queries with (min-width) instead of (max-width).
+      </p>
+      <p>
+        Few articles about Mobile First:<br>
+        <a href="https://www.bairesdev.com/blog/what-is-mobile-first-css-is-it-necessary/" target="_blank">What is mobile first css is it necessary</a><br>
+        <a href="https://alistapart.com/article/mobile-first-css-is-it-time-for-a-rethink/" target="_blank">Mobile first css is it time for a rethink</a>
+      </p>
+    </section>
+    <section> <!-- Examples -->
+      <h2>Examples</h2>
+      <div class="first">Hello</div>
+      <div class="second1"> <!-- displayed -->
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+      </div>
+    </section>
+  </main>
+  <footer>
+  </footer>
+</body>
+</html>

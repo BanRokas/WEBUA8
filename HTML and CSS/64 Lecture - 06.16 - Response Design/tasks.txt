@@ -1,0 +1,14 @@
+CAO:
+  Read 14+15 Lectures
+  If doing tasks do them from mobile to desktop
+
+Rokas:
+  Read articles:
+    https://www.bairesdev.com/blog/what-is-mobile-first-css-is-it-necessary/
+    https://alistapart.com/article/mobile-first-css-is-it-time-for-a-rethink/
+
+  Try to do tasks in media folder:
+    responsiveTask2.png
+    responsiveTask3.png
+  Hard:
+    responsiveDesign1.jpg (photos needed for task in extra folder)
