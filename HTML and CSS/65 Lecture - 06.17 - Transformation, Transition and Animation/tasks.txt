@@ -1,0 +1,13 @@
+CAO Lecture 16:
+  Read
+  Do task
+
+Rokas:
+  videos for fun:
+    https://youtu.be/CG__N4SS1Fc
+    https://youtu.be/2B5rbsOoIUE
+
+  Tasks:
+    1) Create a button. Then you hover over it, it's background and text color would change in very short amount of time. Maybe some other styles would change as well.
+    2) Create element levitation animation. (element moving up, moving down and repeats constantly).
+    extra 3) Try to repeat the viggling (needs skew()) of elements used in CSS Diner game. (https://flukeout.github.io/)

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>65 Lecture - Transformation, Transition and Animation</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <header></header>
+  <main>
+    <section> <!-- Transformation -->
+      <h2>Transform</h2>
+      <p>
+        Transform - style that allows us to change the appearance of the element in ways described below:
+      </p>
+      <ul>
+        <li>rotate() - rotating element</li>
+        <li>scale() - changing it's size</li>
+        <li>translate() - moving element around</li>
+        <li>skew()</li>
+        <li>matrix()</li>
+      </ul>
+      <div class="transform">Transform example</div>
+      <h3>transform-origin</h3>
+      <p>
+        transform-origin tells the element from which position it has to do the transformation (default is center)
+      </p>
+    </section>
+    <section> <!-- Transition -->
+      <h2>Transition</h2>
+      <p>
+        Transition is controlling how elements goes from one state to another.<br>
+        Most commonly transitions are being used together with :hover pseudo class.<br>
+        Transition only happens once per action. From default to change dand back after you remove the cursor or whatever the action was that triggered the transition.
+      </p>
+      <ul>
+        <li>transition-duration - how long transition takes</li>
+        <li>transition-timing-function - how time is used to display the whole transition</li>
+        <li>transition-delay - how long tansition is delayed</li>
+        <li>transition-style - for which style stransition options are assigned</li>
+        <li>transition-behavior</li>
+        <li>transition - combination of all transition styles</li>
+      </ul>
+      <div class="transitionExample">Hello</div>
+    </section>
+    <section> <!-- Animation -->
+      <h2>Animation</h2>
+      <p>
+        Animation is controlling how element changes in between many states.<br>
+        For animation to start, there is no need for user interaction, although there can be.<br>
+        Animations can repeat as many times as we want and during those animations, many different styles can change multiple times.
+      </p>
+      <ul>
+        <li>animation-duration</li>
+        <li>animation-delay</li>
+        <li>animation-timing-function</li>
+        <li>animation-name</li>
+        <li>animation-iteration-count</li>
+        <li>animation-direction</li>
+        <li>animation-play-state: running | paused;</li>
+        <li>animation-fill-mode</li>
+        <li>animation-composition</li>
+        <li>animation: combination of all animation styles</li>
+      </ul>
+      <h3>Keyframes</h3>
+      <p>
+        To describe how animation is happening, we write keyframes describing how the element is styled at a specific time in the animation.<br>
+        (example: @keyframes animationName: { 0%{} 50%{} 100%{} })
+      </p>
+      <div class="animationExample">Animation</div>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>
